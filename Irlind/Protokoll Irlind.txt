@@ -1,0 +1,31 @@
+-Design und Lernprozess
+Das Design einiger Klassen wurde während des Projekts mehrmals geändert, um benötigte Attribute oder Funktionen hinzuzufügen oder solche zu entfernen, die nicht genutzt wurden. Während der Arbeit am Projekt wurde klar, dass die ersten Design-Ideen während der Implementierung oder während der Iterationsphasen immer wieder angepasst werden müssen.
+
+-Entscheidungen zu Unit-Tests
+Die größte Überraschung des gesamten Projekts war der Testprozess. Zuvor dachte ich, dass Tests etwas überbewertet seien. Ich war der Meinung, dass gute Lösungen ausreichen würden und Tests somit nicht nötig seien. Allerdings wurde mir im Projekt bewusst, wie wichtig Tests sind und dass sie ein essentieller Teil davon sind. Ich entschied mich, die Battle Logic intensiver zu testen, um exakte Ergebnisse und ein realitätsnahes Kampferlebnis zu erschaffen. So testete ich beispielsweise alle Fähigkeiten, Spezialitäten, Effektivität, Deckerstellung, Übernahmen von Karten und vieles mehr. Dabei erstellte ich folgende Testklassen:
+
+-BattleTest
+-CardDeckTest
+-CardTest
+-HeaderReaderTest
+-MockitoTesting
+-MonsterCardTest
+-ServerIntegrationTest
+-SpellCardTest
+
+
+-Einzigartiges Merkmal
+Mein einzigartiges Merkmal war das Hinzufügen von Rängen, um die Spieler nicht nur über das ELO-Rating zu unterscheiden. Das Attribut "Rang" wurde den Statistiken hinzugefügt. Dabei wurden folgende Ränge festgelegt:
+
+Elo <= 150 - Rang Bronze
+
+150<Elo<200 - Rang Gold
+
+Elo>200 - Rang Diamant
+
+
+-Zeitlicher Aufwand
+Ich investierte etwa 60 Arbeitsstunden in das Projekt.
+
+-GITHUB
+www.github.com/irlindswen1
